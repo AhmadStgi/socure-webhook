@@ -3,7 +3,7 @@ import axios from 'axios';
 
 @Injectable()
 export class SocureService {
-  private readonly socureSecretKey = 'stgi_secret';
+  private readonly socureSecretKey = 'YgZ2G5jMPj61GNr24QJLm5TJAAIGHeaY21FHFtEs';
 
   async validateSecretKey(secretKey: string): Promise<boolean> {
     return secretKey === this.socureSecretKey;
